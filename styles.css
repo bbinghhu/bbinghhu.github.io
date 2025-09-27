@@ -1,0 +1,109 @@
+/* Base */
+body {
+    margin: 0;
+    padding: 0;
+    font: normal 14.5px Verdana, Arial, sans-serif;
+  }
+  
+  /* Layout blocks */
+  header,
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Lists */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Links */
+  a {
+    color: #34669c;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media */
+  .image {
+    float: right;
+    margin: 0 auto 20px; /* keep your spacing */
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .gif {
+    margin-left: 10px;
+  }
+  
+  /* Responsive tweak */
+  @media only screen and (max-width: 600px) {
+    .image {
+      float: none;
+      text-align: center;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Spacing helpers / rules */
+  .spaced-break {
+    margin-bottom: 5px;
+  }
+  
+  .horizontal-line {
+    width: 100%;
+    max-width: 1000px;
+    height: 1px;
+    border: none;
+    background-color: black;
+  }
+  
+  .double-horizontal-line {
+    width: 100%;
+    max-width: 1000px;
+    height: 1px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  /* Links */
+a {
+    color: #34669c;         /* default blue */
+    text-decoration: none;  /* no underline by default */
+    transition: color 0.2s ease; /* smooth color change */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* underline when hovered */
+    color: #004080;             /* darker blue on hover */
+  }
+  
+  a:visited {
+    color: #5a3696;  /* purple-ish for visited links */
+  }
+
+.image-left {
+  float: left;
+  width: 300px;      /* adjust size as you like */
+  height: auto;
+  margin: 0 20px 20px 0; /* space around image: top/right/bottom/left */
+  border-radius: 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+  
+  
